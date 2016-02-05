@@ -1,0 +1,11 @@
+name: exec2ex
+version: 1.0
+cabal-version: 1.6
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+Executable exec2ex
+  main-is: HS2_ex.hs
+  buildable: True
+  build-depends:
+      base -any

@@ -1,0 +1,11 @@
+-- Haskell Playground 1.0
+half 5
+square 5
+
+let half1 x = x / 2
+half1 3
+
+let square1 x = x ^ 2
+square1 3
+
+func 3
