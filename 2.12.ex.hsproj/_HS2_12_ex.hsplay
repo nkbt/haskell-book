@@ -1,0 +1,29 @@
+-- Haskell Playground 1.0
+let x = 5 in x
+let x = 5 in x * x
+let x = 5; y = 6 in x * y
+let x = 3; y = 1000 in x + 3
+
+mult1
+
+(\x -> x) 0
+(\x -> x) 1
+(\x -> x) "test"
+let id = \x -> x
+id 0
+id 1
+
+let id x = x
+id 0
+id 1
+
+let x = 3; y = 1000 in x * 3 + y
+(\x y -> x * 3 + y) 3 1000
+
+let y = 10; x = 10 * 5 + y in x * 5
+(\x -> x * 5) ((\y -> 10 * 5 + y) 10)
+
+let x = 7; y = negate x; z = y * 10 in z / x + y
+((\x -> negate x) 7)
+((\y -> y * 10) ((\x -> negate x) 7))
+(\x y z -> z / x + y) 7 ((\x -> negate x) 7) ((\y -> y * 10) ((\x -> negate x) 7))
