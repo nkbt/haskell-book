@@ -1,0 +1,11 @@
+name: exec213
+version: 1.0
+cabal-version: 1.6
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+Executable exec213
+  main-is: HS2_13.hs
+  buildable: True
+  build-depends:
+      base -any
