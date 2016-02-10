@@ -1,0 +1,6 @@
+-- Haskell Playground 1.0
+print "Hello world!"
+putStrLn "Hello world!"
+putStr "Hello world!"
+
+main
