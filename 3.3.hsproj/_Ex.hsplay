@@ -1,0 +1,15 @@
+-- Haskell Playground 1.0
+-- 1. These lines of code are from a REPL session. Is y in scope for z?
+let x = 5
+let y = 7
+let z = x * y
+
+z
+
+-- 2. These lines of code are from a REPL session. Is h in scope for function g?
+let f = 3
+let g = 6 * f +  h
+
+-- 3. This code sample is from a source file. Is everything we need to execute area in scope?
+area 10
+

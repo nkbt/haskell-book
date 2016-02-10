@@ -10,5 +10,7 @@ Executable exec33
   build-depends:
       base -any
   other-modules:
+      Ex
       Print2
       Print3
+      GlobalLocal
