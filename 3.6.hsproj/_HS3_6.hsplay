@@ -1,0 +1,17 @@
+-- Haskell Playground 1.0
+'c'
+"c"
+'cc'
+"cc"
+'c' : "hris"
+'P' : ""
+head "Test"
+tail "Test"
+take 1 "test"
+take 0 "test"
+take 3 "test"
+drop 2 "test"
+drop 1000 "test"
+drop
+"test" !! 0
+"test" !! 2

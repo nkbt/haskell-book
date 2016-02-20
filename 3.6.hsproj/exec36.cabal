@@ -1,0 +1,11 @@
+name: exec36
+version: 1.0
+cabal-version: 1.6
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+Executable exec36
+  main-is: HS3_6.hs
+  buildable: True
+  build-depends:
+      base -any
