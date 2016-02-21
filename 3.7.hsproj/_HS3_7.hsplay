@@ -1,0 +1,50 @@
+-- Haskell Playground 1.0
+-- 1
+-- a +
+concat [[1,2,3], [4,5,6]]
+-- b -
+++ [1,2,3] [4,5,6]
+-- c +
+(++) "hello" " world"
+-- d -?
+["hello" ++ " world]
+-- e -
+4 !! "hello"
+-- f +
+(!!) "hello" 4
+-- g -
+take "4 lovely"
+-- h +
+take 3 "awesome"
+-- 2
+-- a [6, 12, 18] - d
+concat [[1*6], [2*6], [3*6]]
+-- b "rainbow" - c
+"rain" ++ drop 2 "elbow"
+-- c 10 - e
+10 * head [1, 2, 3]
+-- d "Jules" - a
+(take 3 "Julie") ++ (tail "yes")
+-- e [2, 3, 5, 6, 8, 9] - b
+concat [tail [1,2,3],
+        tail [4,5,6],
+        tail [7,8,9]]
+-- 3.1
+-- a
+"Curry is awesome" ++ "!"
+-- b
+"Curry is awesome!" !! 4
+-- c
+drop 9 "Curry is awesome!"
+-- 3.2
+_3a "Curry is awesome"
+_3b "Curry is awesome!"
+_3c "Curry is awesome!"
+-- 3.3
+thirdLetter "Curry is awesome"
+-- 3.4
+letterIndex 3
+-- 3.5
+rvrs
+
+
