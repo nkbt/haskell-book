@@ -1,0 +1,9 @@
+-- Haskell Playground 1.0
+testBool 2
+testBool
+testBool Main.True
+
+
+not Prelude.True
+
+
