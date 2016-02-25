@@ -9,3 +9,5 @@ Executable exec42
   buildable: True
   build-depends:
       base -any
+  other-modules:
+      MoodExcercise
